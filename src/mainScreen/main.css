@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.ml-5 {
+    margin-left: 1.5rem;
+}
+
+.app__container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    overflow: hidden;
+    padding: .8rem;
+}
+.app__menu {
+
+}
+.app__body {
+    display: grid;
+    row-gap: .5rem;
+}
+.task {
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1rem);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+}
+.task_2p {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.task_3p {
+
+}
+.task__success {
+    background-color: rgba(63, 245, 39, 0.5);
+}
+.task__danger {
+    background-color: rgba(193, 82, 51, 0.61);
+}
+.task__warning {
+    background-color: rgba(232, 240, 85, 0.61);
+}
